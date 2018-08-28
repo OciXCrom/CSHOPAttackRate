@@ -33,7 +33,7 @@ public plugin_init()
 public plugin_precache()
 {
 	ITEM_ATTACKRATE = cshop_register_item("attackrate", "Faster Attack Rate", 6000);
-	cshop_set_float(ITEM_ATTACKRATE, "Multiplier", 0.25);
+	cshop_set_float(ITEM_ATTACKRATE, "Multiplier", 1.5);
 }
 
 public client_putinserver(id)
